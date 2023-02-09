@@ -9,7 +9,7 @@ frontLigi = (n = 0) => {
     }, function() {
       setTimeout(() => {
         frontLigi(n+1);
-      }, 1000*20)
+      }, 1000)
     });
   });
 }
